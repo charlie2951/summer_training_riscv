@@ -1,0 +1,127 @@
+$date
+	Sat Apr 19 21:41:35 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_progmem $end
+$var wire 32 ! data_out [31:0] $end
+$var reg 32 " addr [31:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ rd_strobe $end
+$var reg 1 % rst $end
+$var reg 4 & wr_strobe [3:0] $end
+$scope module mem0 $end
+$var wire 32 ' addr [31:0] $end
+$var wire 1 # clk $end
+$var wire 32 ( data_in [31:0] $end
+$var wire 1 $ rd_strobe $end
+$var wire 1 % rst $end
+$var wire 4 ) wr_strobe [3:0] $end
+$var wire 30 * mem_loc [29:0] $end
+$var parameter 32 + MEM_SIZE $end
+$var reg 32 , data_out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10000000000 +
+$end
+#0
+$dumpvars
+b0 ,
+bx *
+bx )
+bz (
+bx '
+bx &
+1%
+x$
+1#
+bx "
+b0 !
+$end
+#5
+0#
+#10
+1#
+#15
+0#
+#20
+1#
+#25
+0#
+#30
+1#
+#35
+0#
+#40
+1#
+#45
+0#
+#50
+bx !
+bx ,
+1#
+1$
+0%
+#55
+0#
+#60
+1#
+#65
+0#
+#70
+1#
+#75
+0#
+#80
+1#
+#85
+0#
+#90
+1#
+#95
+0#
+#100
+b1000000000000000000000100010011 !
+b1000000000000000000000100010011 ,
+b0 *
+1#
+b0 "
+b0 '
+#105
+0#
+#110
+b1001100000000000000011101111 !
+b1001100000000000000011101111 ,
+b1 *
+1#
+b100 "
+b100 '
+#115
+0#
+#120
+b100000000000001110011 !
+b100000000000001110011 ,
+b10 *
+1#
+b1000 "
+b1000 '
+#125
+0#
+#130
+b11111111000000010000000100010011 !
+b11111111000000010000000100010011 ,
+b11 *
+1#
+b1100 "
+b1100 '
+#135
+0#
+#140
+1#
